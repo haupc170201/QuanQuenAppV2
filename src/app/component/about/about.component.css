@@ -1,0 +1,58 @@
+
+@media only screen and (max-width: 767px) {
+    .cusBanner{
+     width: 260px;
+     max-width: 275px;
+    }
+
+    .cusPart2{
+     height: 930px !important;
+    }
+
+    .cusMargin{
+        margin: -10px;
+    }
+}
+
+.cusPart3{
+    background-color: white;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cusText-Blue{
+    color: #379DA0;
+    font-family: "Dosis", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cusText-Green{
+    color: #63A60F;
+    font-family: "Dosis", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cusPart2{
+    height: 499px;
+    background-color: white;
+}
+
+.cusPart1{
+    background-color: white;
+    height: 190px;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

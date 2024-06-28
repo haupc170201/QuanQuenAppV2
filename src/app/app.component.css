@@ -1,0 +1,38 @@
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid #b6b6d8;
+}
+
+.footer {
+  
+  height: 460px;
+  background: rgba(254, 188, 24, 0.20)
+}
+
+
+
+@media only screen and (max-width: 690px) {
+  .footer {
+    height: 500px !important;
+  }
+}
+
+:host {
+  ng-scrollbar {
+    --scrollbar-thumb-color: var(--cui-border-color, #999);
+    --scrollbar-track-color: var(--cui-body-color, #fff);
+    --scrollbar-hover-size: calc(var(--scrollbar-size) * 1.5);
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .c-px-3 {
+    padding-right: unset !important;
+    padding-left: unset !important;
+  }
+}

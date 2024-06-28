@@ -1,0 +1,152 @@
+
+@media only screen and (max-width: 767px) {
+    .cusCol2Banner3 {
+        height: 523px !important; 
+    }
+    
+    .cusImgBanner{
+        width: 250px !important;
+    }
+    .cusImgQR{
+        width: auto !important;
+        max-width: 153px;
+        max-height: 153px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .cusStoreWidth{
+        width: 0% !important;
+    }
+    .cusHr{
+        border: 1.5px solid #FC8312 !important;
+    }
+    .cusStoreDisplay{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .cusTextH3-Orange, .cusTextBanner2FS36, .cusTextH3{
+        font-size: 25px !important;
+    }
+    .cusTextFS24, .cusTextBanner2FS24{
+        font-size: 18px !important;
+    }
+    .cusImgStore90{
+        width: 90px !important;
+    }
+}   
+
+@media only screen and (max-width: 911px) {
+    .cusImgBanner{
+        width: 190px;
+    }
+}
+
+.cusHr {
+    border: 2px solid #f67701;
+    border-radius: 10px;
+}
+
+.cusHr{
+    opacity: unset !important;
+}
+
+.cusTextBanner2FS24{
+    color: #000;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.cusTextBanner2FS36{
+    color: #000;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cusTextH3{
+    color: #000;
+    font-family: "Dosis", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cusImgBanner{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.cusContainer{
+    width: 100%;
+    max-width: 1650px;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+}
+
+.cusTextChoose{
+    font-family: "Dosis", sans-serif; 
+    font-weight: 600;
+    color: #fc8312;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cusText{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    color: #000000;          
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cusText:hover {
+    color: #fc8312; 
+}
+
+.cusTextH3-Orange{
+    color: #fc8312;
+    text-align: right;
+    font-family: "Dosis", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cusTextFS24{
+    color: #000;
+    text-align: right;
+    font-family: "Dosis", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cusRowBanner2{
+    background-color: #FC8312;
+    border-radius: 15px;
+}
+
+.body1 {
+    background-color: #F5F5F5 !important;
+}
+

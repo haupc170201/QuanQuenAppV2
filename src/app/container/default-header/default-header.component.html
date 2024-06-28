@@ -1,0 +1,42 @@
+<div class="container cusContainer container-fluid c-header">
+  <div class="row smlai">
+    <div class="col-md-3 d-flex justify-content-center ">
+      <img src="./assets/img/brand/logoQQ.png" class="mt-2 header-logo img-fluid cursorPointer" (click)="pageHome()" />
+      <button toggle="visible" cHeaderToggler [cSidebarToggle]="sidebarId" class="ps-1 cusHeaderToggler ms-auto btn-outline-white btnsmall">
+        <svg cIcon name="cilMenu" size="lg"></svg>
+      </button>
+
+    </div>
+
+      <div class="col-md-7 header-nav-tab header-nav-tab-visible">
+        <div class="row d-flex justify-content-center ">
+
+          <div class="col-sm-3">
+            <label class="cursorPointer" [ngClass]="currentPage === 'about' ? 'cusTextChoose' : 'cusText'" (click)="pageAboutQuanQuen()">{{ 'HEADER_LI1' | translate }}</label>
+            
+          </div>
+
+          <div class="col-sm-3">
+            <label class="cursorPointer" [ngClass]="currentPage === 'feature' ? 'cusTextChoose' : 'cusText'" (click)="pageFeature()">{{ 'HEADER_LI2' | translate }}</label>
+            
+          </div>
+          
+          <div class="col-sm-3">
+            <label class="cursorPointer" [ngClass]="currentPage === 'contact' ? 'cusTextChoose' : 'cusText'" (click)="pageContact()" >{{ 'HEADER_LI3' | translate }}</label>
+            
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="col-md-2 d-flex justify-content-end header-language header-nav-tab-visible">
+        <label>
+          <span class="cursorPointer" [ngClass]="LANGUAGE === false? 'cusTextChoose' : 'cusText'" (click)="btnChangeLanguage(false, 'vi')"> VN </span> 
+          <span class="cusVerticalLine">|</span> 
+          <span class="cursorPointer" [ngClass]="LANGUAGE === true? 'cusTextChoose' : 'cusText'" (click)="btnChangeLanguage(true, 'en')"> EN </span>
+        </label>
+      </div>  
+
+  </div>
+
+  </div>

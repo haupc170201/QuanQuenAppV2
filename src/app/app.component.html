@@ -1,0 +1,39 @@
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet"> -->
+
+
+
+<c-sidebar id="sidebar">
+  <c-sidebar-brand class="logoImage" [brandFull]="{
+        src: 'assets/img/brand/logo.png',
+        width: 132,
+        height: 76,
+        alt: 'CoreUI Logo'
+      }" [brandNarrow]="{
+        src: 'assets/img/brand/logo.svg',
+        width: 100,
+        height: 50,
+        alt: 'CoreUI Logo'
+      }" routerLink="./" />
+
+  <ng-scrollbar pointerEventsMethod="scrollbar" class="bg-color-scrollbar ">
+    <c-sidebar-nav class="hoverable" [navItems]="navItems" dropdownMode="close" />
+  </ng-scrollbar>
+
+</c-sidebar>
+
+<div class="wrapper d-flex flex-column min-vh-100 dark:bg-transparent">
+  <app-default-header class=" header-sticky" position="sticky"></app-default-header>
+
+  <div class="body flex-grow-1 c-px-3" [ngClass]="currentPage === 'about' ? 'body1' : ''">
+    <router-outlet></router-outlet>
+  </div>
+
+  <app-scroll-to-top></app-scroll-to-top>
+  <div class="footer2">
+    <app-default-footer class="footer"></app-default-footer>
+  </div>
+  
+</div>
+
+

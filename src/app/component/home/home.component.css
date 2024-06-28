@@ -1,0 +1,57 @@
+
+.cusImgQR{
+    width: 78%;
+}
+
+.cusStoreWidth{
+    width: 100%;
+}
+
+.cusTextCircle{
+    background: linear-gradient(180deg, rgb(254, 188, 24) 0%, rgb(245, 130, 32) 100%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cusCol2Banner3{
+    height: 520px;
+    max-width: 520px;
+}
+
+.cusRowBanner3{
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+.cusColBanner3{
+    border-radius: 15px;
+    border: 2px solid #FC8312;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cusImageBanner1 {
+    margin-top: 50px;
+}
+
+.imgBackgroundCirclePhone{
+    background: linear-gradient(180deg, rgb(254, 188, 24) 0%, rgb(245, 130, 32) 100%);
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 50%;
+}
+.imgPhone{
+    width: 40px;
+    height: 40px;
+}
+

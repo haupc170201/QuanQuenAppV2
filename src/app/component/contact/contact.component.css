@@ -1,0 +1,32 @@
+
+@media only screen and (max-width: 991px) {
+    .circle-icon {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+.cusIcon {
+    margin-left: 15px;
+    color: #fc8312b8;
+}
+
+.customHref {
+    color: black !important;
+    cursor: pointer;
+}
+
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fc8312;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.far {
+    margin-top: 170px;
+}
+

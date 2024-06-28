@@ -1,0 +1,84 @@
+
+@media only screen and (max-width: 767px) {
+    .cusHeaderToggler {
+        display: block !important;
+    }
+
+    .header-nav-tab-visible {
+        visibility: hidden !important;
+    }
+
+    .header-logo {
+        width: 30%;
+    }
+
+    .c-header {
+        
+        height: 90px !important;
+    }
+
+    .btnsmall {
+        margin-top: 30px;
+        height: 10px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: black;
+        font-size: 16px;
+        cursor: pointer;
+       
+    }
+      
+    .btnsmall:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .smlai {
+        height: 50px;
+    }
+
+}
+
+.rowHeader {
+    width: 100%;
+    margin-left: -15px;
+    max-height: 98px;
+}
+
+.header-logo {
+    max-width: 159px;
+    max-height: 90px;
+}
+
+.header-nav-tab-visible {
+    visibility: visible;
+}
+
+.c-header {
+    border-style: solid;
+    border-color: #ffff;
+    width: 1920px;
+    height: 120px;
+}
+
+.imgLogo {
+    cursor: pointer;
+}
+
+.header-nav-tab {
+    width: 100%;
+    max-width: 56%;
+    margin-top: 61px;
+}
+
+.header-language {
+    margin-top: 61px;
+    cursor: pointer;
+}
+
+.cusHeaderToggler {
+    display: none;
+}
+
+
+
